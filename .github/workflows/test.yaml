@@ -34,9 +34,9 @@ jobs:
         working-directory: packages/hardhat-2.14
         env:
           TENDERLY_ACCESS_KEY: ${{ secrets.TENDERLY_ACCESS_TOKEN }}
-          TENDERLY_PROJECT_SLUG: mini-safe # your project slug
+          TENDERLY_PROJECT_SLUG: project # your project slug
           TENDERLY_DEVNET_TEMPLATE: mini-safe-tests # your devnet template slug
-          TENDERLY_ACCOUNT_ID: nenad # your username or organization name
+          TENDERLY_ACCOUNT_ID: tlrichar # your username or organization name
 
       # - name: Install Frontend Dependencies
       #   run: npm install
